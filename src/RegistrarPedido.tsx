@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import axios from 'axios';
-import '/registrarPedido.css';
+import './registrarPedido.css';
 interface RegistrarPedidoProps {
   idUsuario: number; // O el tipo correspondiente, como `string`, si es el caso
 }
