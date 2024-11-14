@@ -2,8 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import axios from 'axios';
 import './registrarPedido.css';
-
-const RegistrarPedido: React.FC = () => {
+interface RegistrarPedidoProps {
+  idUsuario: number; // O el tipo correspondiente, como `string`, si es el caso
+}
+const RegistrarPedido: React.FC<RegistrarPedidoProps> = () => {
   const location = useLocation();
   const { idUsuario } = location.state;
 
