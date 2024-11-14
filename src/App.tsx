@@ -7,6 +7,7 @@ import ConsultaReparto from './ConsultaReparto';
 import Registro from './Registro';
 import RegistrarPedido from './RegistrarPedido';
 import EmpresaDashboard from './CatalogoEmpresa';
+//Comentario para que me deje github hacer push
 
 const App: React.FC = () => {
   const location = useLocation();
