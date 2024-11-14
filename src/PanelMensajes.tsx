@@ -26,7 +26,7 @@ interface PanelMensajesProps {
   idEmpresa: number;
 }
 
-const PanelMensajes: React.FC<PanelMensajesProps> = ({ repartoId, user, idReceptor, idRepartidor, idEmpresa}) => {
+const PanelMensajes: React.FC<PanelMensajesProps> = ({ repartoId, user, idReceptor, idRepartidor, }) => {
   const [mensajes, setMensajes] = useState<Mensaje[]>([]);
   const [nuevoMensaje, setNuevoMensaje] = useState<string>('');
 

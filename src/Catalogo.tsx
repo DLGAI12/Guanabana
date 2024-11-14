@@ -31,7 +31,7 @@ const Catalogo: React.FC = () => {
   const user: User = location.state;
 
   const [repartos, setRepartos] = useState<Reparto[]>([]);
-  const [nombresUsuarios, setNombresUsuarios] = useState<{ [key: number]: string }>({});
+
   const [nuevoRepartoId, setNuevoRepartoId] = useState<string>('');
   const [mostrarFormulario, setMostrarFormulario] = useState(false);
   const [error, setError] = useState<string | null>(null);

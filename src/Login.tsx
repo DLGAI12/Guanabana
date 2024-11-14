@@ -39,7 +39,6 @@ const Login: React.FC = () => {
         setError('Inicio de sesión fallido');
       }
     } catch (error) {
-      const axiosError = error as AxiosError;
       setError('Inicio de sesión fallido');
     }
   };

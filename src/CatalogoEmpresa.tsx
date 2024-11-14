@@ -6,7 +6,7 @@ import './CatalogoEmpresa.css';
 
 const EmpresaDashboard: React.FC = () => {
   const location = useLocation();
-  const { id, nombre, correo, id_tipo_usuario } = location.state;
+  const { id } = location.state;
 
   return (
     <div className="empresa-dashboard-container">

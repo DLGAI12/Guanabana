@@ -16,14 +16,9 @@ interface Reparto {
   nombre_repartidor?: string;
   nombre_receptor?: string;
   nombre_empresa?: string;
+
 }
 
-interface User {
-  id: number;
-  nombre: string;
-  email: string;
-  id_tipo_usuario: number;
-}
 
 
 
