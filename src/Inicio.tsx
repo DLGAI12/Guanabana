@@ -5,7 +5,7 @@ import axios from 'axios';
 
 const Inicio: React.FC = () => {
   const [idPedido, setIdPedido] = useState('');
-  const [pedidos, setPedidos] = useState([]);
+  const [, setPedidos] = useState([]);
   const [error, setError] = useState('');
   const navigate = useNavigate();
 
